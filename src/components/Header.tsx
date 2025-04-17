@@ -11,13 +11,13 @@ export default function Header() {
     <header className="p-4 flex justify-between items-center border-b">
       <div className="flex items-center">
         <Image
-          src="/polit-logo.svg"
+          src="/polit-logo.png"
           alt="Polit Logo"
-          width={32}
-          height={32}
-          className="mr-2"
+          width={65}
+          height={65}
+          className="ml-10"
         />
-        <span className="font-semibold">Polit.</span>
+        
       </div>
       <div className="flex gap-4">
         <button className="text-green-600 hover:bg-green-50 px-4 py-2 rounded-lg flex items-center gap-2">
@@ -28,7 +28,7 @@ export default function Header() {
         <div className="relative">
           <button 
             onClick={() => setIsOpen(!isOpen)}
-            className="hover:bg-gray-100 p-2 rounded-lg"
+            className="hover:bg-gray-100 p-2 rounded-lg mr-10"
           >
             <SettingsIcon className="w-5 h-5" />
           </button>
