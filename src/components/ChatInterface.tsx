@@ -81,7 +81,7 @@ export default function ChatInterface() {
           <div className="flex-1 flex flex-col items-center justify-center">
             <div className="w-16 h-16 mb-4">
               <Image
-                src="/polit-logo.svg"
+                src="/polit-logo-icon.png"
                 alt="Polit Logo"
                 width={64}
                 height={64}
